@@ -1,11 +1,83 @@
 <mxfile host="65bd71144e">
     <diagram id="dKkajXmFxVpCtBUvdSiL" name="Coupon_Management_System">
-        <mxGraphModel dx="1033" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1333" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;design a Coupon Management System for XYZ e-commerce website where 10k new coupons are released into the system by&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;employees of company every day and 1M users are trying to get hold of coupon, so that they can buy something on the website.&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;These are the constraints:&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em&quot;&gt;&lt;/p&gt;&lt;ol style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1em ; font-size: 14px&quot;&gt;&lt;li style=&quot;box-sizing: border-box&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;One user can get only one coupon per day&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;One coupon can only be allocated to a single user at any given time&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Once a user gets a coupon he/she has to buy something on the website within 5 mins.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em ; color: rgb(66 , 66 , 66) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="90" y="60" width="810" height="160" as="geometry"/>
+                <mxCell id="2" value="&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;design a Coupon Management System for XYZ e-commerce website where 10k new coupons are released into the system by&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;employees of company every day and 1M users are trying to get hold of coupon, so that they can buy something on the website.&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;These are the constraints:&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em&quot;&gt;&lt;/p&gt;&lt;ol style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1em ; font-size: 14px&quot;&gt;&lt;li style=&quot;box-sizing: border-box&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;One user can get only one coupon per day&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;One coupon can only be allocated to a single user at any given time&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Once a user gets a coupon he/she has to buy something on the website within 5 mins.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;https://leetcode.com/discuss/interview-question/system-design/786972/Coupon-Management-System%3A-System-Design-Interview&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;p style=&quot;box-sizing: border-box ; font-size: 14px ; margin-top: 0px ; margin-bottom: 1em ; color: rgb(66 , 66 , 66) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="45" width="830" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;curved=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="490" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="2" style="edgeStyle=none;curved=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="1" style="edgeStyle=none;curved=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="280" width="60" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Coupon Generation&amp;nbsp;&lt;br&gt;Cron Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="4 CDC" style="edgeStyle=none;curved=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="MYSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="570" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;curved=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="11" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="3 claim coupon" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                    <mxGeometry x="-0.3177" relative="1" as="geometry">
+                        <mxPoint x="8" y="19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="5 apply coupon" style="edgeStyle=none;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="if&amp;nbsp; no more coupon&lt;br&gt;use http cache, cache result" style="edgeStyle=none;curved=1;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.552;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="11" target="4">
+                    <mxGeometry x="-0.1535" y="9" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Coupon Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="CDC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="26">
+                    <mxGeometry x="0.1001" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Redis Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="590" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Cassandra" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="720" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="RateLimiter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="2 tables coupon code only get &lt;br&gt;genated at claim time&lt;br&gt;couple table&lt;br&gt;coupon | number_available&lt;br&gt;claim table:&lt;br&gt;userId | coupon code | status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="670" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="The cron job frist creates&amp;nbsp;&lt;br&gt;a temp table, once validated,&amp;nbsp;&lt;br&gt;the mark the table as live table.&lt;br&gt;Once the table is live, the couplon is ready to&amp;nbsp;&lt;br&gt;be claimed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="560" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Controlls overall rps and&lt;br&gt;user level rps&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="295" width="140" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
